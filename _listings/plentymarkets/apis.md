@@ -65,6 +65,19 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/plentymarkets/restitemsattributesvaluesmaps-get-openapi.md
+- name: plentymarkets REST-API - Get name and language for an attribute value ID
+  x-api-slug: restitemsattribute-valuesvalueidnames-get
+  description: Gets name and language for an attribute value ID. The attribute value
+    ID must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/plentymarkets/restitemsattribute-valuesvalueidnames-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/plentymarkets/restitemsattribute-valuesvalueidnames-get-openapi.md
 - name: plentymarkets REST-API - Lists all attribute maps.
   x-api-slug: restitemsattributesmaps-get
   description: Lists all attribute maps..
