@@ -15,11 +15,51 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Attributes
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Simple Notification Service API - Get Endpoint Attributes
+  x-api-slug: actiongetendpointattributes-get
+  description: |-
+    Retrieves the endpoint attributes for a device on one of the supported push notification
+          services, such as GCM and APNS.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
+  humanURL: https://aws.amazon.com/sns/
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actiongetendpointattributes-get-openapi.md
+- name: AWS Simple Notification Service API - Get Platform Application Attributes
+  x-api-slug: actiongetplatformapplicationattributes-get
+  description: |-
+    Retrieves the attributes of the platform application object for the supported push
+          notification services, such as APNS and GCM.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
+  humanURL: https://aws.amazon.com/sns/
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actiongetplatformapplicationattributes-get-openapi.md
+- name: AWS Simple Notification Service API - Get S M S Attributes
+  x-api-slug: actiongetsmsattributes-get
+  description: Returns the settings for sending SMS messages from your account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
+  humanURL: https://aws.amazon.com/sns/
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actiongetsmsattributes-get-openapi.md
 - name: AWS Simple Notification Service API - Get Subscription Attributes
   x-api-slug: actiongetsubscriptionattributes-get
   description: Returns all of the properties of a subscription.
@@ -34,6 +74,59 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actiongetsubscriptionattributes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actiongetsubscriptionattributes-get-openapi.md
+- name: AWS Simple Notification Service API - Get Topic Attributes
+  x-api-slug: actiongettopicattributes-get
+  description: Returns all of the properties of a topic.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
+  humanURL: https://aws.amazon.com/sns/
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actiongettopicattributes-get-openapi.md
+- name: AWS Simple Notification Service API - Set Endpoint Attributes
+  x-api-slug: actionsetendpointattributes-get
+  description: |-
+    Sets the attributes for an endpoint for a device on one of the supported push notification
+          services, such as GCM and APNS.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
+  humanURL: https://aws.amazon.com/sns/
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actionsetendpointattributes-get-openapi.md
+- name: AWS Simple Notification Service API - Set Platform Application Attributes
+  x-api-slug: actionsetplatformapplicationattributes-get
+  description: |-
+    Sets the attributes of the platform application object for the supported push notification
+          services, such as APNS and GCM.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
+  humanURL: https://aws.amazon.com/sns/
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actionsetplatformapplicationattributes-get-openapi.md
+- name: AWS Simple Notification Service API - Set SMS Attributes
+  x-api-slug: actionsetsmsattributes-get
+  description: Use this request to set the default settings for sending SMS messages
+    and receiving daily SMS usage reports.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
+  humanURL: https://aws.amazon.com/sns/
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actionsetsmsattributes-get-openapi.md
 - name: AWS Simple Notification Service API - Set Subscription Attributes
   x-api-slug: actionsetsubscriptionattributes-get
   description: Allows a subscription owner to set an attribute of the topic to a new
@@ -49,6 +142,58 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actionsetsubscriptionattributes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actionsetsubscriptionattributes-get-openapi.md
+- name: AWS Simple Notification Service API - Set Topic Attributes
+  x-api-slug: actionsettopicattributes-get
+  description: Allows a topic owner to set an attribute of the topic to a new value.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
+  humanURL: https://aws.amazon.com/sns/
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actionsettopicattributes-get-openapi.md
+- name: AWS Simple Notification Service API - Get Endpoint Attributes
+  x-api-slug: actiongetendpointattributes-get
+  description: |-
+    Retrieves the endpoint attributes for a device on one of the supported push notification
+          services, such as GCM and APNS.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
+  humanURL: https://aws.amazon.com/sns/
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actiongetendpointattributes-get-openapi.md
+- name: AWS Simple Notification Service API - Get Platform Application Attributes
+  x-api-slug: actiongetplatformapplicationattributes-get
+  description: |-
+    Retrieves the attributes of the platform application object for the supported push
+          notification services, such as APNS and GCM.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
+  humanURL: https://aws.amazon.com/sns/
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actiongetplatformapplicationattributes-get-openapi.md
+- name: AWS Simple Notification Service API - Get S M S Attributes
+  x-api-slug: actiongetsmsattributes-get
+  description: Returns the settings for sending SMS messages from your account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
+  humanURL: https://aws.amazon.com/sns/
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actiongetsmsattributes-get-openapi.md
 - name: AWS Simple Notification Service API - Get Subscription Attributes
   x-api-slug: actiongetsubscriptionattributes-get
   description: Returns all of the properties of a subscription.
@@ -63,6 +208,59 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actiongetsubscriptionattributes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actiongetsubscriptionattributes-get-openapi.md
+- name: AWS Simple Notification Service API - Get Topic Attributes
+  x-api-slug: actiongettopicattributes-get
+  description: Returns all of the properties of a topic.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
+  humanURL: https://aws.amazon.com/sns/
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actiongettopicattributes-get-openapi.md
+- name: AWS Simple Notification Service API - Set Endpoint Attributes
+  x-api-slug: actionsetendpointattributes-get
+  description: |-
+    Sets the attributes for an endpoint for a device on one of the supported push notification
+          services, such as GCM and APNS.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
+  humanURL: https://aws.amazon.com/sns/
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actionsetendpointattributes-get-openapi.md
+- name: AWS Simple Notification Service API - Set Platform Application Attributes
+  x-api-slug: actionsetplatformapplicationattributes-get
+  description: |-
+    Sets the attributes of the platform application object for the supported push notification
+          services, such as APNS and GCM.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
+  humanURL: https://aws.amazon.com/sns/
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actionsetplatformapplicationattributes-get-openapi.md
+- name: AWS Simple Notification Service API - Set SMS Attributes
+  x-api-slug: actionsetsmsattributes-get
+  description: Use this request to set the default settings for sending SMS messages
+    and receiving daily SMS usage reports.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
+  humanURL: https://aws.amazon.com/sns/
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actionsetsmsattributes-get-openapi.md
 - name: AWS Simple Notification Service API - Set Subscription Attributes
   x-api-slug: actionsetsubscriptionattributes-get
   description: Allows a subscription owner to set an attribute of the topic to a new
@@ -78,6 +276,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actionsetsubscriptionattributes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actionsetsubscriptionattributes-get-openapi.md
+- name: AWS Simple Notification Service API - Set Topic Attributes
+  x-api-slug: actionsettopicattributes-get
+  description: Allows a topic owner to set an attribute of the topic to a new value.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
+  humanURL: https://aws.amazon.com/sns/
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-simple-notification-service/actionsettopicattributes-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.simple.email.service.api.gallery.streamdata.io

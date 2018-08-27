@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Clover
 x-complete: 1
@@ -260,4 +259,3 @@ paths:
       - AttributeId
       - Options
       - OptionId
----

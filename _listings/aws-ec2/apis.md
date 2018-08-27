@@ -16,8 +16,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Attributes
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-ec2/apis.md
 specificationVersion: "0.14"
 apis:
@@ -99,6 +99,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-ec2/actiondescribesnapshotattribute-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-ec2/actiondescribesnapshotattribute-get-openapi.md
+- name: AWS EC2 API - Describe Volume Attribute
+  x-api-slug: actiondescribevolumeattribute-get
+  description: Describes the specified attribute of the specified volume.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-ec2/actiondescribevolumeattribute-get-openapi.md
 - name: AWS EC2 API - Describe Vpc Attribute
   x-api-slug: actiondescribevpcattribute-get
   description: Describes the specified attribute of the specified VPC.

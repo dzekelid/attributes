@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Attributes
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-rds/apis.md
 specificationVersion: "0.14"
 apis:
@@ -29,6 +29,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-rds/actiondescribeaccountattributes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-rds/actiondescribeaccountattributes-get-openapi.md
+- name: AWS RDS API - Describe D B Cluster Snapshot Attributes
+  x-api-slug: actiondescribedbclustersnapshotattributes-get
+  description: Returns a list of DB cluster snapshot attribute names and values for
+    a manual DB cluster snapshot.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-rds/actiondescribedbclustersnapshotattributes-get-openapi.md
+- name: AWS RDS API - Describe D B Snapshot Attributes
+  x-api-slug: actiondescribedbsnapshotattributes-get
+  description: Returns a list of DB snapshot attribute names and values for a manual
+    DB snapshot.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-rds/actiondescribedbsnapshotattributes-get-openapi.md
 - name: AWS RDS API - Describe Account Attributes
   x-api-slug: actiondescribeaccountattributes-get
   description: Lists all of the attributes for a customer account.
@@ -42,6 +66,54 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-rds/actiondescribeaccountattributes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-rds/actiondescribeaccountattributes-get-openapi.md
+- name: AWS RDS API - Describe D B Cluster Snapshot Attributes
+  x-api-slug: actiondescribedbclustersnapshotattributes-get
+  description: Returns a list of DB cluster snapshot attribute names and values for
+    a manual DB cluster snapshot.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-rds/actiondescribedbclustersnapshotattributes-get-openapi.md
+- name: AWS RDS API - Describe D B Snapshot Attributes
+  x-api-slug: actiondescribedbsnapshotattributes-get
+  description: Returns a list of DB snapshot attribute names and values for a manual
+    DB snapshot.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-rds/actiondescribedbsnapshotattributes-get-openapi.md
+- name: AWS RDS API - Modify D B Cluster Snapshot Attribute
+  x-api-slug: actionmodifydbclustersnapshotattribute-get
+  description: Adds an attribute and values to, or removes an attribute and values
+    from, a manual DB cluster snapshot.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-rds/actionmodifydbclustersnapshotattribute-get-openapi.md
+- name: AWS RDS API - Modify D B Snapshot Attribute
+  x-api-slug: actionmodifydbsnapshotattribute-get
+  description: Adds an attribute and values to, or removes an attribute and values
+    from, a manual DB snapshot.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Stack, API Service Provider, API Service
+    Provider, API Provider, Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/attributes/master/_listings/aws-rds/actionmodifydbsnapshotattribute-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.polly.api.gallery.streamdata.io

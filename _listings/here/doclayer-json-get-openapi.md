@@ -35,6 +35,46 @@ produces:
 consumes:
 - application/json
 paths:
+  /attribute:
+    get:
+      summary: Filtering by Custom Attributes
+      description: |-
+        *Request a list of user-defined locations based on their attribute values*
+
+        An attribute-based search is requested using the `attribute` endpoint and by adding the `query` parameter to the request URL.
+
+
+
+        * **layerId**  `text`
+         \- Unique indicator used to retrieve a dataset
+
+        * **query**  `text`
+         \- The query to retrieve
+
+        * **app_id**  `text`
+         \- A 20 byte Base64 URL-safe encoded string used for the authentication of the client application.    You must include an `app_id` with every request.
+
+        * **app_code**  `text`
+         \- A 20 byte Base64 URL-safe encoded string used for the authentication of the client application.    You must include an `app_code` with every request.
+      operationId: AttributeGet
+      x-api-path-slug: attribute-get
+      parameters:
+      - in: query
+        name: app_code
+      - in: query
+        name: app_id
+      - in: query
+        name: layerId
+      - in: query
+        name: query
+      responses:
+        200:
+          description: OK
+      tags:
+      - Filtering
+      - By
+      - Custom
+      - Attributes
   /doc/attributes.json:
     get:
       summary: Available Attributes
